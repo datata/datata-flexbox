@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-pad {
+    width: 30vh;
+    height: 30vh;
+}
+
+.mando-izq {
+    background-color: tomato;
+   
+}
+
+.mando-centro {
+    background-color: tomato;
+}
+
+.mando-derecha {
+    background-color: tomato;
+}
+
+.container {
+    display: flex;
+}
+
+.mando-derecha-superior {
+    width: 30vh;
+    height: 15vh;
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mando-derecha-inferior {
+    width: 30vh;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 10vh;
+    height: 10vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+}
+
+.circle-button {
+    width: 8vh;
+    height: 8vh;
+    background-color: red;
+    border-radius: 100%;
+}
